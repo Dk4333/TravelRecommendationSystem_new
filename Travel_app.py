@@ -282,7 +282,7 @@ def choices():
         img = open(logo_path, 'rb').read()
         put_image(img, width='700px')
     except FileNotFoundError:
-        put_text(f"(Image not found: {logxo_path})")
+        put_text(f"(Image not found: {logo_path})")
 
     #put_markdown('# **Welcome to Wayfind.AI**')
     answer = radio("Choose one", options=[
@@ -306,3 +306,4 @@ app.add_url_rule('/', 'webio_view', webio_view(choices), methods=['GET', 'POST',
 
 if __name__ == '__main__':
     app.run(host='localhost', port=8080)
+
