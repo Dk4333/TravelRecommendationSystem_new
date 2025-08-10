@@ -1,9 +1,9 @@
-Flask==3.1.1
-matplotlib==3.10.5
+Flask==2.3.2
+matplotlib
 nltk==3.9.1
-numpy==2.3.2
-pandas==2.3.1
+numpy==1.26.4
+pandas==2.0.3
 pywebio==1.8.4
-sentence_transformers==5.0.0
-torch==2.6.0
-transformers==4.55.0
+sentence_transformers==2.2.2
+torch==2.0.1
+transformers==4.30.2
