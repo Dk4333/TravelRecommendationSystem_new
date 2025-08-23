@@ -257,7 +257,7 @@ def explore():
 
         put_html('<hr>')
         put_markdown(f"# *`{city}`*")
-        put_markdown(f"[🔗 Explore more ]({link})")
+        put_markdown(f"[🔗 more info ]({link})")
 
         pic_path = os.path.join(BASE_IMAGE_PATH, f"{city}.jpg")
         try:
@@ -306,5 +306,6 @@ app.add_url_rule('/', 'webio_view', webio_view(choices), methods=['GET', 'POST',
 
 if __name__ == '__main__':
     app.run(host='localhost', port=8080)
+
 
 
