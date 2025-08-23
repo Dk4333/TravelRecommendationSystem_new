@@ -1,4 +1,4 @@
-# Wayfind.AI — Travel Recommendation & Chatbot System  
+# Wayfind.AI — AI powered Travel Recommendation Web App  
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-2.0+-black.svg?logo=flask)](https://flask.palletsprojects.com/)  
